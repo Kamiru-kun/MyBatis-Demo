@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>pl.kamiru</groupId>
-    <artifactId>spring-boot-mybatis</artifactId>
+    <artifactId>spring-boot-mybatis-oauth2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>MyBatis Demo</name>
     <description>MyBatis Demo</description>
@@ -60,6 +60,10 @@
             <artifactId>mybatis-spring-boot-starter-test</artifactId>
             <version>3.0.4</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-oauth2-client</artifactId>
         </dependency>
     </dependencies>
 
